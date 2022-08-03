@@ -1,0 +1,36 @@
+{
+  "mapConfig": {
+    "projection": "",
+    "center": "106,35",
+    "zoom": 5
+  },
+  "?mapConfig": "地图相关配置",
+  "mapService": {
+    "url": "http://localhost:8090/iserver/services/map-china400/rest",
+    "?url": "服务地址",
+    "map": "China_4326",
+    "?map": "地图名称"
+  },
+  "?mapService": "底图地图服务配置",
+  "imageService": "",
+  "imageWMSService": "",
+  "collection": "",
+  "tileSize": "1028,1028",
+  "rasterQueryUrl": "",
+  "rasterQueryToolTipPrefix": "高程",
+  "elevationGradUrl": "",
+  "imageServicePublishSetting": {
+    "url": "http://localhost:8090/iserver/services/geoprocessing/restjsr/gp/v2/publish:imageservicepublish/",
+    "token": "",
+    "params": {
+      "iserverPath": "http://localhost:8090/",
+      "token": "",
+      "serviceName": "ChinaImage",
+      "dsConnInfo": "",
+      "collectionId": "",
+      "crs": "4326",
+      "listFilePath": "",
+      "interfaceTypes": "OpenAPI-影像服务,WMTS1.0.0服务,WMS1.3.0服务"
+    }
+  }
+}
